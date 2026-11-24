@@ -11,9 +11,11 @@ My long-term interest is in **space robotics and autonomous systems**, particula
 ### Indian Institute of Science (IISc) · 2026–Present
 
 - **[Grasp-Anchored Geometric Skill Transfer](https://github.com/1shit4/grasp-anchored-geometric-transfer):** Developing a task parameterization that adapts demonstrated manipulation behavior across objects and grippers without new task demonstrations or changes to the underlying geometric adaptation algorithm. Starting from one reshelving demonstration, the policy-transportation implementation achieved **214/240 successful placements in simulation** across eight objects and ten hands; selected transfers have also been executed on a Franka FR3 robot.
-- **Closed-Loop Multi-Agent Robot Planning:** Developed a three-agent, foundation-model-based system for tabletop decluttering that evaluates action outcomes and replans after failures or unexpected changes. Implemented in simulation.
+- **[Closed-Loop Multi-Agent Robot Planning](https://github.com/1shit4/closed-loop-multi-agent-robot-planning):** Developed a three-agent, foundation-model-based system for tabletop decluttering that evaluates action outcomes and replans after failures or unexpected changes. Implemented in simulation.
 
 ### IIIT Hyderabad · 2025–2026
+
+The reinforcement-learning and adaptive-control implementations are organized in the [Robust Goal-Directed Aerial Manipulation project](https://github.com/1shit4/aerial-manipulation-rl-control).
 
 - **Reinforcement Learning for Quadrotor Flight:** Trained goal-conditioned PPO policies for hovering and low-speed trajectory tracking in Flightmare, and evaluated their transfer to Gazebo.
 - **Adaptive Control for Aerial Manipulators:** Implemented and tuned adaptive time-delay compensation and sliding-mode controllers for a quadrotor with a robotic arm, studying disturbance rejection under arm motion in PX4–Gazebo simulation.
